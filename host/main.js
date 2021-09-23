@@ -79,7 +79,8 @@ var onCommunicatorLoaded = function (iframeCommunicatorServer) {
   
 };	
 
-
+$.getScript("https://eesy.github.io/host/iframe_communicator_server.js");
+/*
 function loadScript(src, async) {
   var e2 = document.createElement('script');
   e2.src = src;
@@ -90,4 +91,5 @@ function loadScript(src, async) {
   s2.parentNode.insertBefore(e2, s2);
 }
 
-loadScript("https://eesy.github.io/iframe_communicator_server.js", false);	
+loadScript("https://eesy.github.io/host/iframe_communicator_server.js", false);	
+*/
