@@ -80,16 +80,3 @@ var onCommunicatorLoaded = function (iframeCommunicatorServer) {
 };	
 
 $.getScript("https://eesy.github.io/host/iframe_communicator_server.js");
-/*
-function loadScript(src, async) {
-  var e2 = document.createElement('script');
-  e2.src = src;
-  e2.async = async;
-  e2.type = 'text/javascript';
-
-  var s2 = document.getElementsByTagName('script')[0];
-  s2.parentNode.insertBefore(e2, s2);
-}
-
-loadScript("https://eesy.github.io/host/iframe_communicator_server.js", false);	
-*/
