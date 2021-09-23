@@ -71,7 +71,7 @@ var onCommunicatorLoaded = function (iframeCommunicatorServer) {
       pluginAccess[pluginPath] = pluginConfig.access;
       pluginConfig.scopes.forEach(function(scope) {
         if (getActiveScopes().filter(Set.prototype.has, new Set(scope.scope)).length > 0) {
-          $("body").append("<iframe data-plugin-path='" + pluginPath + "' id='frm' src='" + pluginPath + scope.url + "'></iframe>");
+          $("body").append("<iframe style='display: none;' data-plugin-path='" + pluginPath + "' id='frm' src='" + pluginPath + scope.url + "'></iframe>");
         }  
       });
     });
