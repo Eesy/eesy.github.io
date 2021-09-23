@@ -90,4 +90,4 @@ function loadScript(src, async) {
   s2.parentNode.insertBefore(e2, s2);
 }
 
-loadScript("https://janhenrikejme.github.io/host/libs/iframe_communicator_server.js", false);	
+loadScript("https://eesy.github.io/iframe_communicator_server.js", false);	
